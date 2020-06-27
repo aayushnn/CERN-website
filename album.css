@@ -7,6 +7,8 @@
     padding-bottom: var(--jumbotron-padding-y);
     margin-bottom: 0;
     background-color: #fff;
+    background: url(banner.jpg) no-repeat center center;
+    background-size: cover;
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -21,6 +23,7 @@
   
   .jumbotron-heading {
     font-weight: 300;
+    color: #fff;
   }
   
   .jumbotron .container {
@@ -37,4 +40,13 @@
   }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .content-txt {
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: rgb(255, 255, 255);
+    font-weight:400;
+    font-size:1.25rem;
+    font-weight:300
+  }
+
   
