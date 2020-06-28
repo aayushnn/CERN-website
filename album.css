@@ -9,6 +9,7 @@
     background-color: #fff;
     background: url(banner.jpg) no-repeat center center;
     background-size: cover;
+    /* opacity: 0.8; */
   }
   @media (min-width: 768px) {
     .jumbotron {
